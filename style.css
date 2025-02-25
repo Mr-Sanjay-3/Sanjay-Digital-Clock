@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%vw;
+    height: 100%vh;
+}
+
+html body{
+    
+  /*  background: rgb(238,174,202);
+background: linear-gradient(153deg, rgba(238,174,202,1) 0%, rgba(255,60,222,1) 13%, rgba(55,173,255,1) 46%, rgb(211, 177, 222) 72%, rgb(30, 219, 181) 100%);
+*/
+background-repeat: no-repeat;
+background-position: center;
+background-image: url("nightstar.jpg");
+background-size: cover;
+background-attachment: fixed;
+}
+
+/*---clock style---*/
+.container{
+   width: 250px;
+   height: 150px;
+  padding: 50px;
+  justify-content: center;
+  border-radius: 50%;
+   display: flex;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   color: #17fedb;  
+   font-size: 30px;
+   font-family: Orbitron; 
+   letter-spacing:6px; 
+   background: rgb(0,0,0);
+   box-shadow: 10px 5px 1px 10px rgb(5, 95, 231);  
+}
+#ampm{
+ color: red;
+
+}
+p{
+    position: relative;
+    top: 80px;
+    left: 30px;
+    font-family: "My Soul", serif;
+    font-weight: 400;
+      opacity: 40%;
+      color: rgb(28, 240, 127);
+      
+      
+  }
+
+#race{      
+    position: absolute ;
+    top: 25%;
+    left: 25%;
+   text-shadow: 1px 2px #320eff ;
+
+}
+
+.container{
+  transition: 3s;
+  justify-content: center;
+}
+/*style over*/
